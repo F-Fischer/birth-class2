@@ -1,0 +1,19 @@
+{
+  "name": "birth-class2",
+  "version": "0.0.1",
+  "description": "Probando probando",
+  "main": "app.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/F-Fischer/birth-class2.git"
+  },
+  "author": "Francisco Fischer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/F-Fischer/birth-class2/issues"
+  },
+  "homepage": "https://github.com/F-Fischer/birth-class2"
+}
