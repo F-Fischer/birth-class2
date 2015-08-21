@@ -1,4 +1,3 @@
-# birth-class2
-Hola hola hola
+# birth-class
 
-Hola de nuevo
+a [Sails](http://sailsjs.org) application
