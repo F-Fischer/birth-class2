@@ -1,0 +1,22 @@
+{
+  "name": "birth-class2",
+  "version": "0.0.1",
+  "homepage": "https://github.com/F-Fischer/birth-class2",
+  "authors": [
+    "f_fischer <francisco.fischer92@gmail.com>"
+  ],
+  "description": "Descripcion de bower",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.6",
+    "bootstrap": "~3.3.5"
+  }
+}

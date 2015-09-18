@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
@@ -30,7 +30,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-lg-push-2 text-center">
-				<h1>Bienvenidos a Birth-Class2</h1>
+				<h1 id="titulo">Bienvenidos a Birth-Class2 {{nombre}}</h1>
 				<h2>by Francisco Fischer</h2>
 				<p class="lead">
 					Pikachu diablo 3 asians angry birds final week varius le girlfriend in.
@@ -42,9 +42,9 @@
 					<br>
 				
 				<form class="form-inline" role="form">
-					<div class="form-group"><input type="text" class="form-control input-lg" id="exampleInputEmail2" placeholder="Your Name"></div>
+					<div class="form-group"><input type="text" class="form-control input-lg" id="exampleInputEmail2" placeholder="Your Name" ng-model="nombre"></div>
 					<div class="form-group"><input type="text" class="form-control input-lg" id="exampleInputPassword2" placeholder="Your Email"></div>
-					<button type="submit" class="btn btn-lg btn-default">Subscribe</button>
+					<button id="boton" type="submit" class="btn btn-lg btn-default">Subscribe</button>
 				</form>
 				<p class="small text-muted">Powered by Mailchimp. Unsubscribe at any time.</p>
 			</div>
