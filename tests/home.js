@@ -1,7 +1,7 @@
 describe('La homepage',function(){
     it ('deberia tener el titulo correcto', function(){
        // browser.get('https://birth-class2-f-fischer.c9.io/');
-        browser.get('http://localhost:8080/');
+        browser.get("/");
         element(by.id('exampleInputEmail2')).sendKeys('holahola');
        
         element(by.id('boton')).click();
